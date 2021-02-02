@@ -49,7 +49,7 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("time").innerHTML = "Please join us!";
+        document.getElementById("time").innerHTML = "Please join us in this moment!";
     }
 }, 1000);
 
